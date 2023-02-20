@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a68c2072-667c-4af5-993f-1b84dfce289a" name="docker-kafka">
+        <fileTransfer rootFolder="/opt/docker/docker-kafka" accessType="SFTP" host="192.168.2.110" port="22" sshConfigId="faaf57d5-e3d5-49e6-9783-66a772129ab3" sshConfig="root@192.168.2.110:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
